@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 500px;
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+}
+
+.container .default-img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container .hover-img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 260px;
+    height: 260px;
+    background-color: hsla(178, 100%, 50%, 0.377); 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 15px;
+    opacity: 0;
+}
+
+.container .hover-img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.hover-img img{
+    width: 40px;
+    height: 40px;
+}
+
+.text-items h5{
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.text-items h5:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.text-items p{
+    color: hsl(215, 51%, 70%);
+    margin-top: 16px;
+    font-size: 15px;
+}
+
+.flex-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 16px;
+    gap: 6px;
+}
+
+.item-1 img{
+    width: 9px;
+}
+
+.item-1 p {
+    margin: 0;
+    color: hsl(178, 100%, 50%);
+}
+
+.item-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 16px;
+    gap: 6px;
+}
+
+.item-2 img{
+    width: 14px;
+}
+
+.item-2 p {
+    margin: 0;
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+
+hr{
+    margin-top: 20px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+    height: 1px;
+    
+}
+
+.icon-img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 16px;
+    gap: 15px;
+}
+
+.icon-img img{
+    width: 30px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.para-container p{
+    display: inline;
+}
+
+.para-container .white-text{
+    color: white;
+}
+
+.para-container .white-text:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
